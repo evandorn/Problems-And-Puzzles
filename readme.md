@@ -1,4 +1,4 @@
-# Programming problems and Puzzles.
+# Programming problems and puzzles.
 
 This is a repo to solve different programming problems in different languages.
 The goal is to facilitate language learning and improve problem solving skills. 
