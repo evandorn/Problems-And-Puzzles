@@ -10,7 +10,7 @@ def factorial(n):
 
 if __name__ == '__main__':
     
-    print("Enter a number to compute the factorial ")
+    print("Enter a number to compute the factorial")
     n = int(input())
 
     print("The factorial of " + str(n) + " is " + str(factorial(n)))
