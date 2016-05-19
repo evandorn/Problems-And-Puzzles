@@ -8,8 +8,8 @@
 
 /*
  *  Program to check if an input is a palindrome.
- *    If string is a palandrome, then program simply returns "Input is a palandrome."
- *    If the string is not a palandrome, then it returns the string reversed.
+ *    If string is a palandrome, then program simply returns "Input is a palindrome."
+ *    If the string is not a palindrome, then it returns the string reversed.
  */
 
 
@@ -37,7 +37,7 @@ int main() {
     
     // Check if input reversed is a palindrome
     if(input == checker) {
-        std::cout << "Input is a palandrome" << std::endl;
+        std::cout << "Input is a palindrome" << std::endl;
     } else {
         std::cout << input << std::endl;
     }

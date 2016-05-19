@@ -1,12 +1,6 @@
-//
-//  ReverseString.swift
-//  
-//
-//  Created by Evan Dorn on 5/19/16.
-//
-//
+//: Playground - noun: a place where people can play
 
-// Reverse a string in swift without using the built in reverse method
+import Cocoa
 
 import Foundation
 
@@ -15,8 +9,10 @@ func myReverse(str:String) -> String {
     var buffer = ""
     
     for character in str.characters {
+        
         buffer.insert(character, atIndex: buffer.startIndex)
     }
+    
     return buffer
 }
 
@@ -26,3 +22,4 @@ let userInput = readLine(stripNewline: true)!
 let reversedString = myReverse(userInput)
 
 print("\(reversedString)")
+
