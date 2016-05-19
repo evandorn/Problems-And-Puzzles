@@ -6,8 +6,6 @@ SoE.py - A program to find all prime numbers less than 100000 using the Sieve of
 Returns a list of all primes < 100001.
 """
 
-import math
-
 nums = [True for x in xrange(100001)]
 primes = []
 
