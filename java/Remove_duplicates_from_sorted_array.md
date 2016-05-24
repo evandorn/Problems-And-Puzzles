@@ -13,9 +13,7 @@ Your function should return length = 2, and A is now [1,2].
 #####Solution
 Our solution approach is to keep 2 pointers. The first pointing to a.size -1 and second pointing to one less than the index
 of the first. We compare elements at both index and delete accordingly. Note that we start from the end of the list since
-this is more efficient for deleting from an arraylist in Java. It possible to make a sweep through the array starting from
-the beginning. However, this will create a quadratic runtime since for every deletion, all subsequent elements are shifted 
-to the left.
+this is more efficient for deleting from an arraylist in Java. It is possible to make a sweep through the array starting from the beginning. However, this will lead to a quadratic runtime. Since for every deletion, all subsequent elements are shifted to the left.
 See implemeentation below.
 <pre>
 <code>
