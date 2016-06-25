@@ -9,6 +9,8 @@
 #include <iostream>
 
 int factorial(int n) {
+    // Base case. Note: Recursion MUST have a base case for termination purposes.
+    //  If there is no base case then the function will result in infinite recursion.
     if(n == 0) {
         return 1;
     } else {
